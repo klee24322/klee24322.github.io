@@ -1,0 +1,243 @@
+body {
+    margin: 0px;
+}
+
+p,
+a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    margin: 0px 0px 5px 0px;
+    color: rgb(101, 111, 126);
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.subHeader {
+    font-size: 20px;
+}
+
+.header {
+    /* box-shadow: 0 2px 7px #bbbbbb;*/
+    background: rgb(233, 231, 236);
+    height: 482px;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 60%;
+    display: inline-block;
+}
+
+.content {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 60%;
+    display: inline-block;
+}
+
+.aboutParagraph {
+    margin-top: 57px;
+    width: 50%;
+    float: left;
+}
+
+.photo {
+    height: 228px;
+    border-radius: 100%;
+    /* box-shadow: -1px 1px 8px 1px #545454; */
+    margin-top: 53px;
+}
+
+.image {
+    margin-right: 0px;
+    width: 30%;
+    float: right;
+    height: 91%;
+}
+
+.navigation {
+    width: 81%;
+    display: table;
+    margin: 0 auto;
+    height: 70px;
+    position: fixed;
+    left: 10%;
+    z-index: 999;
+}
+
+.navItem {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 19px;
+    width: 16%
+}
+
+#headerBottom {
+    margin-top: 92px;
+    text-align: left;
+}
+
+.stick {
+    background-color: white;
+}
+
+.section {
+    width: 100%;
+    border-radius: 10px;
+    padding: 16px;
+    padding-top: 70px;
+    /* opacity: 0;*/
+}
+
+.sectionHeader {
+    font-size: 31px;
+    color: rgb(101, 111, 126);
+    margin-bottom: 23px;
+    font-weight: bolder;
+}
+
+.paragraphContents {
+    color: #5a5a5a;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 1.7;
+}
+
+.col-50 {
+    column-count: 2;
+}
+
+.line {
+    height: 1px;
+    border: none;
+    background-color: #e0b8da;
+    margin-bottom: 14px;
+    text-align: right;
+    width: 23%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.icons {
+    height: 188px;
+    float: right;
+    margin-right: 12%;
+}
+
+.skillsText {
+    margin-left: 14%;
+}
+
+.lighterText {
+    color: #7b7b7b;
+}
+
+.bar {
+    border: 1px solid #ffffff00;
+    height: 35px;
+    column-count: 7;
+    margin-top: 16px;
+}
+
+.circle {
+    border: 1px solid #9abbe9;
+    height: 15px;
+    border-radius: 11px;
+    width: 30px;
+}
+
+.bubbled {
+    background-color: #9abbe9;
+}
+
+.headingText {
+    font-weight: 500;
+}
+
+.subText {
+    font-size: 16px;
+    margin: 0;
+}
+
+.education {
+    margin-right: 0px;
+    display: flex;
+}
+
+.company {
+    font-weight: 400;
+}
+
+.educationDate {
+    color: #9abbe9;
+    font-weight: 500;
+    margin-left: 30%;
+}
+
+.rows {
+    display: flex;
+}
+
+.columns {
+    flex: 50%;
+    padding: 10px;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.fa {
+    padding: 16px;
+    font-size: 30px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.social-media {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.social-media a {
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
