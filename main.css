@@ -10,6 +10,10 @@ a {
     color: rgb(101, 111, 126);
 }
 
+a {
+    text-decoration: none;
+}
+
 .white {
     color: white;
 }
@@ -100,6 +104,7 @@ a {
     color: rgb(101, 111, 126);
     margin-bottom: 23px;
     font-weight: bolder;
+    text-align: left;
 }
 
 .paragraphContents {
@@ -107,6 +112,7 @@ a {
     font-size: 19px;
     font-weight: 100;
     line-height: 1.7;
+    text-align: left;
 }
 
 .col-50 {
@@ -146,14 +152,14 @@ a {
 }
 
 .circle {
-    border: 1px solid #9abbe9;
+    border: 1px solid #d9d0ea;
     height: 15px;
     border-radius: 11px;
     width: 30px;
 }
 
 .bubbled {
-    background-color: #9abbe9;
+    background-color: #d9d0ea;
 }
 
 .headingText {
@@ -175,7 +181,7 @@ a {
 }
 
 .educationDate {
-    color: #9abbe9;
+    color: #beb1d6;
     font-weight: 500;
     margin-left: 30%;
 }
